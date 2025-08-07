@@ -79,6 +79,10 @@ let missaoAtual = "Enfrentar o guardião Mulon";
 // Capítulo 1
 console.log("Capítulo 1");
 
+if (NOME_ARMA == "Katana Congelante") {
+    console.log(`Arma ${NOME_ARMA} foi equipada. `)
+}
+
 if (vidaAtual >= 70) {
     console.log(`Brito pode enfrentar o guardião Mulon conforme sua missão.`)
 } 
@@ -106,3 +110,8 @@ if (combatesVencidos >= 2) {
 } else {
     console.log(`Participe de mais combates para continuar a missão.`)
 }
+
+// Capítulo 3 
+console.log("Capítulo 3");
+
+console.log(`Agora que Brito fez seus deveres de confirmações, ele deve seguir sua missão de derrotar o Guardião Mulon`);
