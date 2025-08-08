@@ -118,5 +118,30 @@ console.log(`Agora que Brito fez seus deveres de confirmações, ele deve seguir
 console.log("Ele chegou em um castelo, que é onde o guardião está");
 
 if (vidaMaxima == vidaAtual) {
-    console.log(``);
+    console.log(`Voce pode entrar no castelo, ja que está com a vida cheia`);
+} 
+
+let vidaGuardiao = 200;
+let agilidadeGuardiao = 18;
+let ataqueCongelante = 150;
+
+if (DANO_BASE > 100 ) {
+    console.log(`Brito faz um ataque no guardião`);
+    vidaGuardiao -= 100;
+} else if (agilidade > agilidadeGuardiao) {
+    console.log(`Brito foi mais rápido que o guardião e fez um ataque`);
+    vidaGuardiao -= 15;
+} else {
+    console.log(`Brito decide fugir para não ir de havaianas`);
 }
+
+console.log(`Vida do guardião: ${vidaGuardiao}`)
+
+if (ataqueCongelante > vidaGuardiao) {
+    console.log(`Brito desbloqueia um novo ataque`);
+    console.log(`Brito causa 100 de dano, e derrota o guardião`);
+}
+
+console.log(`Fim do capítulo.`);
+
+
