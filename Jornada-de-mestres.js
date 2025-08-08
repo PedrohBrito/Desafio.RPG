@@ -99,19 +99,24 @@ if (forca >= 15) {
 // Capítulo 2
 console.log("Capítulo 2");
 
-if (manaMaxima >= manaAtual) {
+if (manaAtual <= manaMaxima) {
     console.log(`Brito pode continuar a jornada de sua missão com 50 de mana.`);
 } else {
-    console.log(`Ganhe muitas mana para poder continuar a missão.`)
+    console.log(`Ganhe muitas mana para poder continuar a missão.`);
 }
 
 if (combatesVencidos >= 2) {
     console.log(`Brito pode continuar a jornada de sua jornada com experencia com batalhas.`);
 } else {
-    console.log(`Participe de mais combates para continuar a missão.`)
+    console.log(`Participe de mais combates para continuar a missão.`);
 }
 
 // Capítulo 3 
 console.log("Capítulo 3");
 
 console.log(`Agora que Brito fez seus deveres de confirmações, ele deve seguir sua missão de derrotar o Guardião Mulon`);
+console.log("Ele chegou em um castelo, que é onde o guardião está");
+
+if (vidaMaxima == vidaAtual) {
+    console.log(``);
+}
