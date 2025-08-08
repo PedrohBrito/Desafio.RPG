@@ -148,7 +148,7 @@ console.log(`Fim do capítulo.`);
 
 // Elementos para o casteo dos arrays
 
-let  inventario = ["Poção de vida", "Katana Congelante", "Armadura de Ouro"];
+let  inventario = ["Poção de vida", "Katana Congelante", "Chapéu Afiado"];
 let aliados = ["Mestre Chester", "Cavaleiro Maximus"];
 let inimigosEncontrados = ["Guardião Mulan", " Mago Ragnarock", "Bruxa dos 71"];
 let salasCastelo = ["Biblioteca Arcana", "Armadilha de Cristal", "Torre do Tempo"];
@@ -162,4 +162,26 @@ console.log(`Sendo seus itens: ${inventario}`);
 // Capítulo 1 
 console.log("Capítulo 1");
 
-let 
+let pocoesEncontradas = ["Cura Maior", "Força Titânica", "Invisibilidade"];
+let armadilhasAtiradas = [];
+
+console.log(`Primeira poção encontrada: ${pocoesEncontradas[0]}`);
+console.log(`Total de poções mágicas: ${pocoesEncontradas.length}`);
+
+inventario[0] = "Poção de Vida Suprema";
+console.log(`Uma poção foi aprimorada.`);
+
+inventario.push("Armadura de Prata");
+console.log(`Um novo item foi adicionado! Inventário: ${inventario}`);
+
+inventario.pop();
+console.log(`Um item foi perdido.`);
+console.log(`Inventario atualizado: ${inventario}`);
+
+// Capítulo 2
+console.log("Capítulo 2");
+
+console.log(`Começando a exploração pelo castelo.`);
+console.log(`Salas a explorar: ${salasCastelo.length}`);
+
+
