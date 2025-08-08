@@ -144,4 +144,22 @@ if (ataqueCongelante > vidaGuardiao) {
 
 console.log(`Fim do capítulo.`);
 
+// Nivel 3
 
+// Elementos para o casteo dos arrays
+
+let  inventario = ["Poção de vida", "Katana Congelante", "Armadura de Ouro"];
+let aliados = ["Mestre Chester", "Cavaleiro Maximus"];
+let inimigosEncontrados = ["Guardião Mulan", " Mago Ragnarock", "Bruxa dos 71"];
+let salasCastelo = ["Biblioteca Arcana", "Armadilha de Cristal", "Torre do Tempo"];
+let tesouroColetado = [];
+
+console.log(`${nomePersonagem} entra finalmente no castelo dos grandes e maiores Samurais da face da terra.`);
+console.log(`Depois de suas vitórias e batalhas, ${nomePersonagem} está muito satisfeito pelo seu esforço.`);
+console.log(`Seu inventario no momento está composto por: ${inventario.length} itens`);
+console.log(`Sendo seus itens: ${inventario}`);
+
+// Capítulo 1 
+console.log("Capítulo 1");
+
+let 
