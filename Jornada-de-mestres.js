@@ -184,4 +184,17 @@ console.log("Capítulo 2");
 console.log(`Começando a exploração pelo castelo.`);
 console.log(`Salas a explorar: ${salasCastelo.length}`);
 
+for (let i = 0; i < salasCastelo.length; i++) {
+    console.log(`Sala ${i + 1}: ${salasCastelo[i]}`);
+    if (i === 0) {
+        console.log(`${nomePersonagem} encontrou vários mandamentos sobre samurais`);
+        experiencia += 50;
+        } else if (i === 1) {
+        console.log("Um cristal de gelo concedeu poderes ao chapeu");
+        tesouroColetado.push("Cristal de Poder");
+        } else {
+        console.log("⏰ O tempo distorce ao redor de " + nomePersonagem + "!");
+        vidaAtual -= 10; // Pequeno dano temporal
+        } 
+}
 
